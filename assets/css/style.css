@@ -3,7 +3,8 @@
     border-bottom: 1px solid #ccc;
     display: flex;
     justify-content: space-between;
-    align-items: center
+    align-items: center;
+    background-color: #D14D72;
 }
 .header__left {
     flex: 1;
@@ -94,9 +95,10 @@
 }
 
 ._bodyLeft_2vs8i_13 {
+    background: #FFABAB;
     width: 300px;
     list-style: none;
-    background: var(--primary-color);
+    
     height: 100%;
     overflow-y: scroll;
     padding-bottom: 60px
@@ -120,7 +122,7 @@
 }
 
 ._leftItemText_2vs8i_39 {
-    color: var(--gray-color);
+    color: black;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
@@ -171,6 +173,7 @@
 }
 
 ._bodyRight_2vs8i_90 {
+    background: #FCC8D1;
     flex: 1;
     padding: 12px;
     display: flex;
@@ -218,7 +221,8 @@
     border: 1px solid var(--gray-color);
     padding: 4px 12px;
     border-radius: 6px;
-    width: 100%
+    width: 100%;
+    border-color: #5c0505;
 }
 
 ._comments_2vs8i_149 {
@@ -241,7 +245,8 @@
     cursor: pointer;
     position: sticky;
     top: 0;
-    background: var(--white-color)
+    background: #FCC8D1;
+    color: black;
 }
 
 ._cmtHeader_2vs8i_158 ._icon_2vs8i_172 {
@@ -254,7 +259,7 @@
 
 ._cmtInp_2vs8i_180 {
     outline: none;
-    border: 1px solid #ccc;
+    border: 1px solid #5c0505;
     border-radius: 6px;
     padding: 4px 12px;
     margin-top: 6px
@@ -274,7 +279,15 @@
     margin-top: 8px;
     width: 60px;
     margin-left: auto;
-    background: var(--primary-color)
+    background: var(--primary-color);
+    padding:10px;
+    font-weight: 600;
+}
+
+
+._btnSendCmt_2vs8i_198:hover{
+    background-color: #E8A0BF;
+    font-weight: 600;
 }
 
 @media (width < 1200px) {
@@ -310,10 +323,6 @@
 }
 
 
-
-
-
-
 ._headerLogoImg_5waku_24 {
     height: 150%;
     object-fit: contain
@@ -346,7 +355,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #ccc;
+    background: #E8A0BF;
     padding: 4px 12px;
     border-radius: 8px;
     animation: _userScale_5waku_1 .5s ease-in-out
@@ -411,7 +420,9 @@
     gap: 6px;
     transition: all linear .25s
 }
-
+li{
+    list-style-type: none;
+}
 ._headerRightDelete_14aty_23:hover {
     cursor: pointer;
     transform: scale(1.05)
@@ -434,6 +445,7 @@
     --gray-color: #d9d9d9;
     --red-color: #ff0000;
     --green-color: #4a934a;
+    --pink-color1: #D14D72;
     --shadow: 0 2px 4px rgba(0, 0, 0, .075)
 }
 
