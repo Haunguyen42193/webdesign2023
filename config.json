@@ -1,6 +1,6 @@
 {
   "web": {
-    "client_id": "378888776688-dkd019h0kk3obh1a1oogo4ia7da3cjol.apps.googleusercontent.com",
+    "client_id": "794314995082-sflkifne3lqq52kmkf751ftdv021cv7t.apps.googleusercontent.com",
     "client_secret": "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",
     "redirect_uris": ["http://localhost:3000/callback"]
   }
