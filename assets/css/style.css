@@ -1,0 +1,26 @@
+.header {
+    height: var(--header-height);
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+.header__left {
+    flex: 1;
+    display: flex;
+    justify-content: left;
+    align-items: center
+}
+.header__logo{
+    height: var(--header-height);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.header__mid{
+
+}
+.header__right{
+
+}
